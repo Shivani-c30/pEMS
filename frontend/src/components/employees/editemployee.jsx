@@ -32,7 +32,7 @@ const EditEmployee = () => {
   const fetchCategories = async () => {
     try {
       const response = await axios.get(
-        `https://hub-4.vercel.app/category/category/${id}`
+        `https://shivani-ems.vercel.app/category/category/${id}`
       );
       if (response.data.categories && response.data.categories.length > 0) {
         setAllCategories(response.data.categories);

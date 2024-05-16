@@ -89,7 +89,7 @@ const Category = () => {
   ) => {
     try {
       const response = await axios.put(
-        `https://hub-4.vercel.app/category/update_category/${categoryId}`,
+        `https://shivani-ems.vercel.app/category/update_category/${categoryId}`,
         {
           name: updatedCatName,
           description: updatedDescription,

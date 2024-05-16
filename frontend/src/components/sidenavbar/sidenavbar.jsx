@@ -14,7 +14,7 @@ const SideNavbar = () => {
   const [salaryTotal, setSalaryTotal] = useState(0);
   const employeeCount = (id) => {
     axios
-      .get(`https://hub-4.vercel.app/employee/employee_count/${id}`)
+      .get(`https://shivani-ems.vercel.app/employee/employee_count/${id}`)
       .then((response) => {
         if (response.data.Status) {
           setEmployeeTotal(response.data.Result);

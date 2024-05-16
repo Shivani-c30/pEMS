@@ -46,7 +46,7 @@ function Signup() {
     }
     setError("");
     axios
-      .post("https://hub-4.vercel.app/auth/register", {
+      .post("https://shivani-ems.vercel.app/auth/register", {
         name,
         email,
         password,

@@ -15,7 +15,7 @@ const Employees = () => {
   const fetchEmployee = async () => {
     try {
       const response = await axios.get(
-        `https://hub-4.vercel.app/employee/employee/${id}`
+        `https://shivani-ems.vercel.app/employee/employee/${id}`
       );
       if (response.data.employees && response.data.employees.length > 0) {
         setAllEmployees(response.data.employees);
